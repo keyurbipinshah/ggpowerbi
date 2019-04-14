@@ -15,4 +15,5 @@
 #'  \item{twilight}{Twilight color palette}
 #' }
 #'
+#' @export
 "pbi_palettes"

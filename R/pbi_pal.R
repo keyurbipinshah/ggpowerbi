@@ -42,11 +42,15 @@ pbi_pal <- function(palette = "default", direction = 1) {
     if (direction == -1) {
       palette <- rev(palette)
     }
-    if (n >= max_len) {
-      palette <- palette
-    } else {
-      palette <- palette[seq_len(n)]
-    }
+    # if (n >= max_len) {
+    #   palette <- palette
+    # } else {
+    #   palette <- palette[seq_len(n)]
+    # }
+    n_grps <- n %/% max_len
+    alphas <- seq(from = 1, by = -1 / (1 + n_grps), length.out = (1 + n_grps))
+    palette <- lapply(alphas, function(x) transparentize(palette, x))
+    palette <- unlist(palette)[seq_len(n)]
     palette
   }
 }
