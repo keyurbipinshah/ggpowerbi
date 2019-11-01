@@ -10,16 +10,16 @@
 #' @author Keyur Shah
 #'
 #' @examples
-#' display_pbi_pal("default", 5)
+#' display_pbi_pal("classic", 5)
 #'
 #' @importFrom graphics image
 #'
 #' @export
 #'
-display_pbi_pal <- function(palette = "default", n = length(pbi_palettes[[palette]])) {
+display_pbi_pal <- function(palette = "classic", n = length(pbi_palettes[[palette]])) {
   if (!is.character(palette) || !palette %in% names(pbi_palettes)) {
     warning("Unknown palette ", palette)
-    palette <- "default"
+    palette <- "classic"
   }
   palette_name <- palette
   palette <- pbi_pal(palette = palette)(n)

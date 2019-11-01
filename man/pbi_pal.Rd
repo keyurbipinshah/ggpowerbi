@@ -4,7 +4,7 @@
 \alias{pbi_pal}
 \title{Microsoft PowerBI palettes}
 \usage{
-pbi_pal(palette = "default", direction = 1)
+pbi_pal(palette = "classic", direction = 1)
 }
 \arguments{
 \item{palette}{A palette name from \code{names(pbi_palettes)}, defaults to

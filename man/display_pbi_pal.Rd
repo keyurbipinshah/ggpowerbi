@@ -4,7 +4,7 @@
 \alias{display_pbi_pal}
 \title{Display Microsoft Power BI Palettes}
 \usage{
-display_pbi_pal(palette = "default",
+display_pbi_pal(palette = "classic",
   n = length(pbi_palettes[[palette]]))
 }
 \arguments{
@@ -20,7 +20,7 @@ Plot of colours
 Display Microsoft Power BI Palettes
 }
 \examples{
-display_pbi_pal("default", 5)
+display_pbi_pal("classic", 5)
 
 }
 \author{

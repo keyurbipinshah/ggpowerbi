@@ -1,10 +1,11 @@
 #' @title Palettes of Microsoft Power BI
 #'
-#' @description A list containing 8 palettes of Microsoft Power BI
+#' @description A list containing 19 palettes of Microsoft Power BI
 #'
-#' @format A named list with 8 elements:
+#' @format A named list with 19 elements:
 #'
 #' \describe{
+#'  \item{classic}{Classic color palette}
 #'  \item{default}{Default color palette}
 #'  \item{city park}{City park color palette}
 #'  \item{classroom}{Classroom color palette}
@@ -13,6 +14,16 @@
 #'  \item{high contrast}{High Contrast color palette}
 #'  \item{sunset}{Sunset color palette}
 #'  \item{twilight}{Twilight color palette}
+#'  \item{highrise}{Highrise color palette}
+#'  \item{executive}{Executive color palette}
+#'  \item{frontier}{Frontier color palette}
+#'  \item{innovate}{Innovate color palette}
+#'  \item{bloom}{Bloom color palette}
+#'  \item{tidal}{Tidal color palette}
+#'  \item{temperature}{Temperature color palette}
+#'  \item{solar}{Solar color palette}
+#'  \item{divergent}{Divergent color palette}
+#'  \item{storm}{Storm color palette}
 #' }
 #'
 "pbi_palettes"

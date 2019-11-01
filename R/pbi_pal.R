@@ -31,10 +31,10 @@
 #'
 #' @export
 #'
-pbi_pal <- function(palette = "default", direction = 1) {
+pbi_pal <- function(palette = "classic", direction = 1) {
   if (!is.character(palette) || !palette %in% names(pbi_palettes)) {
     warning("Unknown palette ", palette)
-    palette <- "default"
+    palette <- "classic"
   }
   palette <- pbi_palettes[[palette]]
   max_len <- length(palette)

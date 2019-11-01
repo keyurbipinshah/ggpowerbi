@@ -42,7 +42,7 @@
 #'
 #' @export
 #'
-scale_color_pbi <- function(..., palette = "default", direction = 1, aesthetics = "colour") {
+scale_color_pbi <- function(..., palette = "classic", direction = 1, aesthetics = "colour") {
   ggplot2::discrete_scale(aesthetics, "pbi", pbi_pal(palette, direction), ...)
 }
 
@@ -56,6 +56,6 @@ scale_colour_pbi <- scale_color_pbi
 #'
 #' @export
 #'
-scale_fill_pbi <- function(..., palette = "default", direction = 1, aesthetics = "fill") {
+scale_fill_pbi <- function(..., palette = "classic", direction = 1, aesthetics = "fill") {
   ggplot2::discrete_scale(aesthetics, "pbi", pbi_pal(palette, direction), ...)
 }

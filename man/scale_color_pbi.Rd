@@ -6,13 +6,13 @@
 \alias{scale_fill_pbi}
 \title{Color and fill scales from Microsoft PowerBI}
 \usage{
-scale_color_pbi(..., palette = "default", direction = 1,
+scale_color_pbi(..., palette = "classic", direction = 1,
   aesthetics = "colour")
 
-scale_colour_pbi(..., palette = "default", direction = 1,
+scale_colour_pbi(..., palette = "classic", direction = 1,
   aesthetics = "colour")
 
-scale_fill_pbi(..., palette = "default", direction = 1,
+scale_fill_pbi(..., palette = "classic", direction = 1,
   aesthetics = "fill")
 }
 \arguments{
