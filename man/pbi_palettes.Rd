@@ -4,7 +4,8 @@
 \name{pbi_palettes}
 \alias{pbi_palettes}
 \title{Palettes of Microsoft Power BI}
-\format{A named list with 19 elements:
+\format{
+A named list with 19 elements:
 
 \describe{
  \item{classic}{Classic color palette}
@@ -26,7 +27,8 @@
  \item{solar}{Solar color palette}
  \item{divergent}{Divergent color palette}
  \item{storm}{Storm color palette}
-}}
+}
+}
 \usage{
 pbi_palettes
 }

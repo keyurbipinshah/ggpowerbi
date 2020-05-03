@@ -4,8 +4,7 @@
 \alias{display_pbi_pal}
 \title{Display Microsoft Power BI Palettes}
 \usage{
-display_pbi_pal(palette = "classic",
-  n = length(pbi_palettes[[palette]]))
+display_pbi_pal(palette = "classic", n = length(pbi_palettes[[palette]]))
 }
 \arguments{
 \item{palette}{A palette name from \code{names(pbi_palettes)}, defaults to

@@ -3,7 +3,6 @@
 \docType{package}
 \name{ggpowerbi}
 \alias{ggpowerbi}
-\alias{ggpowerbi-package}
 \title{\code{ggpowerbi} package}
 \description{
 An implementation of PowerBI themes and colour palettes in R.

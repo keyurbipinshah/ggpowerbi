@@ -3,8 +3,9 @@
 #' @description Creates nice looking color palettes from Microsoft PowerBI
 #'
 #' \code{pbi_pal} makes the color palettes from Microsoft PowerBI available
-#'  as R palettes. Names of 8 palettes are as follows:
+#'  as R palettes. Names of 19 palettes are as follows:
 #'  \enumerate{
+#'	 \item \code{classic}
 #'   \item \code{default}
 #'   \item \code{city park}
 #'   \item \code{classroom}
@@ -13,6 +14,16 @@
 #'   \item \code{high contrast}
 #'   \item \code{sunset}
 #'   \item \code{twilight}
+#'   \item \code{highrise}
+#'   \item \code{executive}
+#'   \item \code{frontier}
+#'   \item \code{innovate}
+#'   \item \code{bloom}
+#'   \item \code{tidal}
+#'   \item \code{temperature}
+#'   \item \code{solar}
+#'   \item \code{divergent}
+#'   \item \code{storm}
 #'  }
 #'
 #' @param palette A palette name from \code{names(pbi_palettes)}, defaults to
@@ -42,11 +53,6 @@ pbi_pal <- function(palette = "classic", direction = 1) {
     if (direction == -1) {
       palette <- rev(palette)
     }
-    # if (n >= max_len) {
-    #   palette <- palette
-    # } else {
-    #   palette <- palette[seq_len(n)]
-    # }
     n_grps <- n %/% max_len
     alphas <- seq(from = 1, by = -1 / (1 + n_grps), length.out = (1 + n_grps))
     palette <- lapply(alphas, function(x) transparentize(palette, x))

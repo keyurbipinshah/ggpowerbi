@@ -6,14 +6,16 @@
 \alias{scale_fill_pbi}
 \title{Color and fill scales from Microsoft PowerBI}
 \usage{
-scale_color_pbi(..., palette = "classic", direction = 1,
-  aesthetics = "colour")
+scale_color_pbi(..., palette = "classic", direction = 1, aesthetics = "colour")
 
-scale_colour_pbi(..., palette = "classic", direction = 1,
-  aesthetics = "colour")
+scale_colour_pbi(
+  ...,
+  palette = "classic",
+  direction = 1,
+  aesthetics = "colour"
+)
 
-scale_fill_pbi(..., palette = "classic", direction = 1,
-  aesthetics = "fill")
+scale_fill_pbi(..., palette = "classic", direction = 1, aesthetics = "fill")
 }
 \arguments{
 \item{...}{Other arguments passed on to \code{\link[ggplot2]{discrete_scale}}}

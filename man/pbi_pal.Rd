@@ -21,8 +21,9 @@ A function with paramater \code{n}, number of colors required from
 Creates nice looking color palettes from Microsoft PowerBI
 
 \code{pbi_pal} makes the color palettes from Microsoft PowerBI available
- as R palettes. Names of 8 palettes are as follows:
+ as R palettes. Names of 19 palettes are as follows:
  \enumerate{
+ \item \code{classic}
   \item \code{default}
   \item \code{city park}
   \item \code{classroom}
@@ -31,6 +32,16 @@ Creates nice looking color palettes from Microsoft PowerBI
   \item \code{high contrast}
   \item \code{sunset}
   \item \code{twilight}
+  \item \code{highrise}
+  \item \code{executive}
+  \item \code{frontier}
+  \item \code{innovate}
+  \item \code{bloom}
+  \item \code{tidal}
+  \item \code{temperature}
+  \item \code{solar}
+  \item \code{divergent}
+  \item \code{storm}
  }
 }
 \examples{
